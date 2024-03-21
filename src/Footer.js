@@ -1,4 +1,5 @@
 import React from "react";
+import "./Footer.css";
 
 export default function Footer() {
   return (
@@ -6,15 +7,23 @@ export default function Footer() {
       <footer>
         <p>
           This project was coded by
-          <a href="https://github.com/chiogzy" target="_blank">
+          <a href="https://github.com/chiogzy" target="_blank" rel="noreferrer">
             Chioma Oguogho
           </a>
-          and is
-          <a href="https://github.com/chiogzy/Publicweatherapp" target="_blank">
-            on GitHub
+          and is on
+          <a
+            href="https://github.com/chiogzy/previousweather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
           </a>
           and
-          <a href="https://anotherweather.netlify.app/" target="_blank">
+          <a
+            href="https://musical-llama-76f8d4.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             hosted on Netlify
           </a>
         </p>
